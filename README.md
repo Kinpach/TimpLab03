@@ -2,17 +2,17 @@
 export GITHUB_USERNAME=Kinpach
 cd ${GITHUB_USERNAME}/workspace
 source scripts/activate
-git clone https://github.com/${GITHUB_USERNAME}/TimpLab02.git projects/TimpTimpLab03
-Клонирование в «projects/TimpTimpLab03»...
+git clone https://github.com/${GITHUB_USERNAME}/TimpLab02.git projects/TimpLab03
+Клонирование в «projects/TimpLab03»...
 remote: Enumerating objects: 50, done.
 remote: Counting objects: 100% (50/50), done.
 remote: Compressing objects: 100% (41/41), done.
 remote: Total 50 (delta 16), reused 11 (delta 0), pack-reused 0 (from 0)
 Получение объектов: 100% (50/50), 10.93 КиБ | 10.93 МиБ/с, готово.
 Определение изменений: 100% (16/16), готово.
-cd projects/TimpTimpLab03
+cd projects/TimpLab03
 git remote remove origin
-git remote add origin https://github.com/${GITHUB_USERNAME}/TimpTimpLab03.git
+git remote add origin https://github.com/${GITHUB_USERNAME}/TimpLab03.git
 g++ -std=c++11 -I./include -c sources/print.cpp
 ls print.o
 print.o
@@ -106,7 +106,7 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
 
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/Kinpach/workspace/projects/TimpTimpLab03/_build
+-- Build files have been written to: /home/Kinpach/workspace/projects/TimpLab03/_build
 [ 25%] Building CXX object CMakeFiles/example1.dir/examples/example1.cpp.o
 [ 50%] Linking CXX executable example1
 /usr/bin/ld: CMakeFiles/example1.dir/examples/example1.cpp.o: в функции «main»:
@@ -132,7 +132,7 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
 
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/Kinpach/workspace/projects/TimpTimpLab03/_build
+-- Build files have been written to: /home/Kinpach/workspace/projects/TimpLab03/_build
 [ 25%] Linking CXX executable example1
 /usr/bin/ld: невозможно найти -lprint: Нет такого файла или каталога
 collect2: error: ld returned 1 exit status
@@ -174,7 +174,7 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
 
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/Kinpach/workspace/projects/TimpTimpLab03/_build
+-- Build files have been written to: /home/Kinpach/workspace/projects/TimpLab03/_build
 cmake --build _build
 [ 50%] Building CXX object CMakeFiles/print.dir/sources/print.cpp.o
 [100%] Linking CXX static library libprint.a
@@ -198,7 +198,7 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
 
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/Kinpach/workspace/projects/TimpTimpLab03/_build
+-- Build files have been written to: /home/Kinpach/workspace/projects/TimpLab03/_build
 [ 33%] Built target print
 [ 50%] Linking CXX executable example1
 [ 66%] Built target example1
@@ -221,7 +221,7 @@ _build/example2
 cat log.txt && echo
 hello
 rm -rf log.txt
-git clone https://github.com/tp-labs/TimpTimpLab03 tmp
+git clone https://github.com/tp-labs/TimpLab03 tmp
 Клонирование в «tmp»...
 remote: Enumerating objects: 91, done.
 remote: Counting objects: 100% (30/30), done.
@@ -279,7 +279,7 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
 
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/Kinpach/workspace/projects/TimpTimpLab03/_build
+-- Build files have been written to: /home/Kinpach/workspace/projects/TimpLab03/_build
 cmake --build _build --target install
 [100%] Built target print
 Install the project...
